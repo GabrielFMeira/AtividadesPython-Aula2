@@ -5,7 +5,6 @@ for i in range(60):
 
     if precoCompra == 0:
 
-        #troco = float(input("Insira o valor para troco: "))
         print("========================================")
         print("LOJAS TABAJARA")
         print("Compra Finalizada!")
