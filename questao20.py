@@ -5,7 +5,7 @@ for i in range(60):
 
     if precoCompra == 0:
 
-        troco = float(input("Insira o valor para troco: "))
+        #troco = float(input("Insira o valor para troco: "))
         print("========================================")
         print("LOJAS TABAJARA")
         print("Compra Finalizada!")
@@ -18,6 +18,7 @@ for i in range(60):
             numeroItem+=1
 
         print("Valor Total: R$", sum(compras))
+        troco = float(input("Insira o valor para troco: R$ "))
         print("Troco: R$", troco-sum(compras))
 
         print("========================================")
